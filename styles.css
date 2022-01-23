@@ -1,7 +1,13 @@
 body {
-    font-family: 'Ubuntu';
+    font-family: "Ubuntu";
     background: #161111;
     margin: 0px;
+}
+
+@font-face {
+    font-family: "zapf_chancery_medium_italic";
+    src: url("res/zapf_chancery_medium_italic.woff") format("woff"), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url("res/zapf_chancery_medium_italic.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 /* Nav bar styles */
@@ -15,7 +21,7 @@ body {
 }
 
 .nav_bar_logo {
-    height: 45px;
+    height: 41px;
     margin: 4px;
     margin-left: 8px;
 }
@@ -27,6 +33,7 @@ body {
     padding: 16px 14px;
     text-decoration: none;
     font-size: 18px;
+    transition: .33s;
 }
 
 .nav_entry:hover {
@@ -50,6 +57,12 @@ body {
     border-radius: 30px;
 }
 
+.content_div h1 {
+    font-family: "zapf_chancery_medium_italic";
+    color: #990000;
+    font-size: 48px;
+}
+
 .title_img {
     width: 80%;
     margin-left: 10%;
@@ -58,7 +71,7 @@ body {
 }
 
 .content_div p {
-    color: #FFBBBB;
+    color: #DFBBBB;
     margin-right: 10%;
     margin-left: 10%;
 
