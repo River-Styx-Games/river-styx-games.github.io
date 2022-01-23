@@ -28,3 +28,33 @@ body {
     text-decoration: none;
     font-size: 18px;
 }
+
+/* Main content styles */
+
+.content_div {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    background: #080606;
+    border-radius: 30px;
+}
+
+.title_img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.content_div p {
+    color: #FFBBBB;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    line-height: 1.5;
+    text-indent: 50px;
+}
