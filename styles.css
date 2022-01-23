@@ -29,6 +29,13 @@ body {
     font-size: 18px;
 }
 
+.nav_entry:hover {
+    background: #FBBBBB;
+    color: #220000;
+    transition-duration: .5s;
+}
+
+
 /* Main content styles */
 
 .content_div {
