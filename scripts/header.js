@@ -4,7 +4,7 @@ let header_code = `
     <a id="download_nav_button" class="nav_entry">Download</a>
     <a id="progress_nav_button" class="nav_entry">Progress</a>
     <a id="contact_nav_button" class="nav_entry">Contact Us</a>
-    <a id="about_nav_button" class="nav_entry">About</a>
+    <a id="about_nav_button" class="nav_entry" href="about.html">About</a>
 </div>
 `;
 
