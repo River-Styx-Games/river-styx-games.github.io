@@ -3,6 +3,7 @@
         <title>DemonDice Visual Novel Project</title>
         <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="carousel.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
     </head>
     <body>
@@ -27,124 +28,34 @@
                 work, but I'll include a sample entry of what I'm planning below. As always, 
                 it's probably not the best way to do it so hmu if you've got another idea.
             </p>
-            <div id="penguin_entry" class="profile_base_div">
-                <center>
-                    <h2 style="margin-bottom: 2px;">Mortified Penguin</h2>
-                    <h3 style="margin: 5px;">Writing</h3>
-                </center>
-                <div class="user_entry_pic_div">
-                    <img class="user_entry_pic" src="https://cdn.discordapp.com/avatars/766117999538339850/ebb5ab199557626e2c50dbd89bc37f54.webp" alt="Mortified_Penguin PFP"/>
-                </div>
-                <div class="user_entry_text">
-                    <div>
-                        What's there to say? My name is 'Mike,' and I'm a four-time novelist, 
-                        full-time amateur, and occasional screenwriter. Rumors of my employment 
-                        by various three-letter agencies have been greatly exaggerated, though 
-                        I've been known to cavort with cohorts in the five-O. Described as a 
-                        madlad - or a mad genius, depending on who you ask - I write only after 
-                        midnight, using a 1940s manual typewriter and typing with the muzzles 
-                        of handguns duct-taped to me. (You may use your imagination figuring 
-                        out how that works.) Setting aside my professional exploits, I'm a 
-                        Dicecord OG, and you'll never convince me American Saikoro isn't Dice's 
-                        masterpiece. Despite my many trips down the River Styx, I remain a 
-                        bondservant of Christ and am blessed to be working with the very 
-                        talented members of our dev team.
-                    </div>
-                </div>
-            </div>
-            <div id="dragon_entry" class="profile_base_div">
-                <center>
-                    <h2 style="margin-bottom: 2px;">DragonFox</h2>
-                    <h3 style="margin: 5px;">Writing</h3>
-                </center>
-                <div class="user_entry_pic_div">
-                    <img class="user_entry_pic" src="https://cdn.discordapp.com/avatars/242469485502529536/fc6b358809e7b123456d9fe37f68ced2.webp" alt="DragonFox PFP"/>
-                </div>
-                <div class="user_entry_text">
-                    <div>Glasses are really versatile. First, you can have glasses-wearing girls take them off and suddenly become beautiful, or have girls wearing glasses flashing those cute grins, or have girls stealing the protagonist's glasses and putting them on like, "Haha, got your glasses!" That's just way too cute! Also, boys with glasses! I really like when their glasses have that suspicious looking gleam, and it's amazing how it can look really cool or just be a joke.</div>
-                </div>
-            </div>
-            <div id="mepphy_entry" class="profile_base_div">
-                <center>
-                    <h2 style="margin-bottom: 2px;">Mepphington</h2>
-                    <h3 style="margin: 5px;">Character Art</h3>
-                </center>
-                <div class="user_entry_pic_div">
-                    <img class="user_entry_pic" src="https://cdn.discordapp.com/avatars/146694813381689344/a_52bbfeb44c72f90d4ee583e6641587b9.webp" alt="Mepphy PFP"/>
-                </div>
-                <div class="user_entry_text">
-                    <div>
-                        Yo yo, my name's Mepphy Mepphington, Lead Artist for this sick project and 
-                        coolest Demon-Seagull fella around! I've done art professionally to semi-
-                        professionally for at least 10 years now, and I'm providing the Sprite art 
-                        and Character design for this VN. With over a month of consecutive listening
-                        -to of Karen's discography in the last year, I'm in her top 0,005% of listeners, 
-                        which basically translates to: "I'm a mega fan of alt. rap á la dice." I've 
-                        not been a fan of her stuff for too long, but from the moment I first listened 
-                        to Hazy Skyscraper, I knew she'd be an inspiration to me for months and years 
-                        to come. Be it her art, her music, or her style, eventually everything came to 
-                        inspire the way I live my day-to-day life, so it's an honor to work on this 
-                        project with other talented members of the Dicecord.
-                    </div>
-                </div>
-            </div>
-            <div id="jakeguy11_entry" class="profile_base_div">
-                <center>
-                    <h2 style="margin-bottom: 2px;">JakeGuy11</h2>
-                    <h3 style="margin: 5px;">Software</h3>
-                </center>
-                <div class="user_entry_pic_div">
-                    <img class="user_entry_pic" src="https://cdn.discordapp.com/avatars/512817511822000138/8e8dfbc14316d4afd8d73e1cb704b145.webp" alt="JakeGuy11 PFP"/>
-                </div>
-                <div class="user_entry_text">
-                    <div>Hey, I'm JakeGuy11, and I'm leading the software portion of this project! I'm 
-                        currently studying quantum chemistry and quantum physics in Canada. I'm really 
-                        into computer programming (you can check out my other main project 
-                        <a href="https://jakeguy11.github.io/image-sourcerer-site/">here</a>). I'm a 
-                        big fan of DemonDice's music and am honored to be able to work on this project! 
-                        Speaking of, I've loved working with everyone else on this project, so I hope 
-                        you enjoy it as much as I did!
-                    </div>
-                </div>
-            </div>
-            <style>
-                .profile_base_div h2 {
-                    color: #DFBBBB;
-                    font-family: "zapf_chancery_medium_italic";
-                    font-size: 44px;
-                }
-                .profile_base_div h3 {
-                    color: #DFBBBB;
-                    font-family: "zapf_chancery_medium_italic";
-                    font-size: 28px;
-                }
-
-                .profile_base_div {
-                    width: 80%;
-                    margin-top: 50px;
-                    margin-left: 10%;
-                    margin-right: 10%;
-                }
+            <center>
+                <div class="slider">
+    
+                    <a href="#penguin">1</a>
+                    <a href="#dragon">2</a>
+                    <a href="#mepphington">3</a>
+                    <a href="#fighter">4</a>
+                    <a href="#jakeguy11">5</a>
                 
-                .user_entry_pic_div {
-                    display: inline-block;
-                    vertical-align: top;
-                    width: 20%;
-                }
-
-                .user_entry_pic {
-                    width: 100%;
-                    border-radius: 20%;
-                }
-
-                .user_entry_text {
-                    display: inline-block;
-                    color: #DFBBBB;
-                    width: 75%;
-                    margin-left: 10px;
-                    line-height: 1.5;
-                }
-            </style>
+                    <div class="slides">
+                        <div id="penguin">
+                            Penguin
+                        </div>
+                        <div id="dragon">
+                            Dragon
+                        </div>
+                        <div id="mepphington">
+                            Mepphy
+                        </div>
+                        <div id="fighter">
+                            Fighter
+                        </div>
+                        <div id="jakeguy11">
+                            JakeGuy11
+                        </div>
+                    </div>
+                </div>
+            </center>
         </div>
     </body>
     <script src="scripts/header.js"></script>
