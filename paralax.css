@@ -1,0 +1,22 @@
+body {
+  background-image: url("./res/horizon.png");
+  background-repeat: no-repeat;
+}
+
+.forefront-element {
+  -webkit-transform: translateZ(999px) scale(1);
+  transform: translateZ(999px) scale(1);
+  z-index: 1;
+}
+
+.buildings {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 4;
+}
+
+.background-element {
+  -webkit-transform: translateZ(-999px) scale(2);
+  transform: translateZ(-999px) scale(2);
+  z-index: 3;
+}
