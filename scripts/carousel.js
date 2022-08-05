@@ -5,14 +5,27 @@ document.getElementById("fart_button").onclick = tempPauseFunne;
 
 function tempPause() {
     disableScroll();
-    setTimeout(clearLock, 10);
+    setTimeout(clearLock, 30);
+
+    if (randint(0, 100) == 69) {
+        microwave();
+    }
+}
+
+function randint(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function tempPauseFunne() {
     disableScroll();
+    setTimeout(clearLock, 30);
     var snd = new Audio("res/hehe.mp3");
     snd.play();
-    setTimeout(clearLock, 10);
+}
+
+function microwave() {
+    var snd = new Audio("res/mmmmmmmmmm BEEP BEEP BEEP.mp3");
+    snd.play();
 }
 
 function disableScroll() {
