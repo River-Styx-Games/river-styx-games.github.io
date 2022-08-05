@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 60%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100%;
+    margin-right: 50px;
+    margin-top: 0;
+    border-radius: 10px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    color: #dfbbbb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides p {
+    text-indent: 0;
+    margin-top: 0;
+}
+
+.slides span {
+    font-size: 32px;
+    margin-top: 0px;
+    font-family: "zapf_chancery_medium_italic";
+}
+
+.slider img {
+    object-fit: cover;
+    position: absolute;
+    border-radius: 30%;
+    height: 40px;
+    width: 40px;
+}
+
+.carousel-link {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.carousel-link:active {
+    top: 1px;
+}
+
+/*Makes carousel text a little bit wider on small screens to alleviate the cramped feeling*/
+@media screen and (max-width: 700px) {
+    .slider {
+        width: 80%;
+    }
+}
