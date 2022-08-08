@@ -20,6 +20,7 @@ function tempPauseFunne() {
     disableScroll();
     setTimeout(clearLock, 30);
     var snd = new Audio("res/hehe.mp3");
+    snd.volume = 0.7;
     snd.play();
 }
 
