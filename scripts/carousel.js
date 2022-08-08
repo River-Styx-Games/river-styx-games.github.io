@@ -7,7 +7,7 @@ function tempPause() {
     disableScroll();
     setTimeout(clearLock, 30);
 
-    if (randint(0, 100) == 69) {
+    if (randint(0, 150) == 69) {
         microwave();
     }
 }
