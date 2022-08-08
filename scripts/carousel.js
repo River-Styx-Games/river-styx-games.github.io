@@ -20,12 +20,12 @@ function tempPauseFunne() {
     disableScroll();
     setTimeout(clearLock, 30);
     var snd = new Audio("res/hehe.mp3");
-    snd.volume = 0.5;
     snd.play();
 }
 
 function microwave() {
     var snd = new Audio("res/mmmmmmmmmm BEEP BEEP BEEP.mp3");
+    snd.volume = 0.6;
     snd.play();
 }
 
